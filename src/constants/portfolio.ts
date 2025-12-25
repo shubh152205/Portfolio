@@ -127,34 +127,28 @@ export const AUTHOR: Author = {
   ],
   social: {
     github: "https://github.com/shubh152205/",
-    email: "shubham8423286406@gmail.com",
+    email: "ask.shubham.dev@gmail.com",
   },
 };
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     _id: "work-1",
-    company: "SelectSkillSet",
-    title: "Frontend Developer",
+    company: "Student",
+    title: "Android Developer",
     location: "Remote",
     startDate: "2024",
-    endDate: "Present",
+    endDate: "2025",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "Developing modern, responsive frontend applications with focus on user experience and performance. Working with cutting-edge technologies to build scalable web solutions.",
-          },
-        ],
-      },
-      {
-        _type: "block",
-        children: [
-          {
-            _type: "span",
-            text: "Key responsibilities include building responsive and interactive user interfaces using React and Next.js, implementing modern UI/UX designs with TailwindCSS and Framer Motion, optimizing application performance and ensuring cross-browser compatibility, and collaborating with design and backend teams to deliver high-quality features.",
+            text: `• Developed user-friendly interfaces for mobile applications.
+                   • Participated in code reviews to maintain quality standards.
+                   • Assisted in debugging code to identify and fix errors in applications.
+                   • Researched new technologies to enhance understanding of software engineering trends.`,
           },
         ],
       },
@@ -162,27 +156,20 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   },
   {
     _id: "work-2",
-    company: "Tekisky",
-    title: "Full Stack Developer",
+    company: "College Mini Project",
+    title: "Flutter Developer",
     location: "Remote",
-    startDate: "2023",
-    endDate: "2024",
+    startDate: "09/2025",
+    endDate: "12/2025",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
-          },
-        ],
-      },
-      {
-        _type: "block",
-        children: [
-          {
-            _type: "span",
-            text: "Key responsibilities included developing and maintaining full-stack web applications using React, Node.js, and MongoDB, implementing RESTful APIs and integrating third-party services, building responsive user interfaces and optimizing application performance, and working on database design and backend architecture.",
+            text: `• Developed user interfaces using Flutter for mobile applications.
+                   • Conducted code reviews to ensure best practices and maintain code quality.
+                   • Troubleshot and debugged application issues to improve user experience.`,
           },
         ],
       },
@@ -213,7 +200,7 @@ export const PROJECTS: Project[] = [
     technologies: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL", "Docker"],
     image: {
       asset: {
-        url: "/projects/project-1.webp",
+        url: "/portfolio/projects/project-1.webp",
       },
     },
     links: [
@@ -246,7 +233,7 @@ export const PROJECTS: Project[] = [
     technologies: ["TypeScript", "WebRTC", "Socket.io", "Canvas API", "Node.js", "Redis"],
     image: {
       asset: {
-        url: "/projects/project-2.webp",
+        url: "/portfolio/projects/project-2.webp",
       },
     },
     links: [
@@ -279,7 +266,7 @@ export const PROJECTS: Project[] = [
     technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS", "MetaMask"],
     image: {
       asset: {
-        url: "/projects/project-3.webp",
+        url: "/portfolio/projects/project-3.webp",
       },
     },
     links: [
@@ -312,7 +299,7 @@ export const PROJECTS: Project[] = [
     technologies: ["Go", "Kubernetes", "Grafana", "Prometheus", "Terraform", "React"],
     image: {
       asset: {
-        url: "/projects/project-4.webp",
+        url: "/portfolio/projects/project-4.webp",
       },
     },
     links: [
