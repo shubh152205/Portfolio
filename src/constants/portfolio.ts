@@ -79,7 +79,7 @@ export const AUTHOR: Author = {
   initials: "SS",
   avatar: {
     asset: {
-      url: "/portfolio/images/avatar.jpg",
+      url: "https://cdn.dribbble.com/userupload/5464833/file/original-7c3852b08e60261f29f0fc3a3776da6f.jpg",
     },
   },
   description: [
