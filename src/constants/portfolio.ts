@@ -88,7 +88,7 @@ export const AUTHOR: Author = {
       children: [
         {
           _type: "span",
-          text: "I build web that builds brands.",
+          text: "Software Developer",
         },
       ],
     },
