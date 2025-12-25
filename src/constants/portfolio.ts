@@ -99,7 +99,7 @@ export const AUTHOR: Author = {
       children: [
         {
           _type: "span",
-          text: "I'm a full-stack developer with expertise in React, Next.js, Node.js, and MongoDB. I love creating modern, responsive web applications with a focus on user experience and performance. Currently working as a Frontend Developer at SelectSkillSet, I bring experience from my previous role as a Full Stack Developer at Tekisky.",
+          text: "Results-driven software engineer focused on mobile app development and user interface design. Known for effective problem-solving and collaborative code reviews, enhancing application quality and efficiency.",
         },
       ],
     },
