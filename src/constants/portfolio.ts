@@ -145,9 +145,9 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
         children: [
           {
             _type: "span",
-            text: `• Developed user-friendly interfaces for mobile applications.
-                   • Participated in code reviews to maintain quality standards.
-                   • Assisted in debugging code to identify and fix errors in applications.
+            text: `• Developed user-friendly interfaces for mobile applications. \n
+                   • Participated in code reviews to maintain quality standards. \n
+                   • Assisted in debugging code to identify and fix errors in applications. \n
                    • Researched new technologies to enhance understanding of software engineering trends.`,
           },
         ],
@@ -159,16 +159,16 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     company: "College Mini Project",
     title: "Flutter Developer",
     location: "Remote",
-    startDate: "09/2025",
-    endDate: "12/2025",
+    startDate: "2025",
+    endDate: "2025",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: `• Developed user interfaces using Flutter for mobile applications.
-                   • Conducted code reviews to ensure best practices and maintain code quality.
+            text: `• Developed user interfaces using Flutter for mobile applications. \n
+                   • Conducted code reviews to ensure best practices and maintain code quality. \n
                    • Troubleshot and debugged application issues to improve user experience.`,
           },
         ],
@@ -185,19 +185,19 @@ export const EDUCATION: Education[] = [
 export const PROJECTS: Project[] = [
   {
     _id: "project-1",
-    title: "AI-Powered Code Review Assistant",
+    title: "Analysis and Identification of Malicious Mobile Application",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "An intelligent code review platform that uses machine learning to analyze pull requests, detect bugs, suggest optimizations, and enforce coding standards. Features real-time collaboration, automated testing integration, and comprehensive security scanning.",
+            text: "This mini project focuses on the analysis and identification of malicious mobile applications using a Flutter-based approach. The system examines app behavior patterns, permissions, and activity indicators to help detect potential security threats in mobile applications. By combining a clean Flutter interface with logical analysis techniques, the project demonstrates how mobile security concepts can be applied in a practical, user-focused solution. It highlights an understanding of mobile app development, basic cybersecurity principles, and real-world problem solving.",
           },
         ],
       },
     ],
-    technologies: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL", "Docker"],
+    technologies: ["Flutter", "Docker", "Git", "GitHub", "VS Code", "Photoshop"],
     image: {
       asset: {
         url: "/portfolio/projects/project-1.webp",
@@ -206,31 +206,26 @@ export const PROJECTS: Project[] = [
     links: [
       {
         title: "Source Code",
-        url: "#",
-        type: "code",
-      },
-      {
-        title: "Live Demo",
-        url: "#",
-        type: "demo",
+        url: "https://github.com/shubh152205/FreeMalwareDetection",
+        type: "Dart",
       },
     ],
   },
   {
     _id: "project-2",
-    title: "Real-time Collaborative Whiteboard",
+    title: "Youtube link to PDF converter",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "A next-generation collaborative whiteboard platform with infinite canvas, real-time synchronization, and advanced drawing tools. Supports video conferencing, screen sharing, and export to multiple formats. Built for remote teams and educators.",
+            text: "This project converts YouTube video links into clean, well-formatted PDF documents using Python and HTML. It extracts key video data such as title, description, and subtitles when available, then structures the content with HTML for readability before generating the final PDF. The tool focuses on simplicity, accuracy, and user experience, making it useful for offline study, documentation, and content archiving.",
           },
         ],
       },
     ],
-    technologies: ["TypeScript", "WebRTC", "Socket.io", "Canvas API", "Node.js", "Redis"],
+    technologies: ["Python", "HTML", "Git", "GitHub", "VS Code", "Photoshop"],
     image: {
       asset: {
         url: "/portfolio/projects/project-2.webp",
