@@ -16,7 +16,7 @@ export interface Author {
   social?: {
     github?: string;
     linkedin?: string;
-    twitter?: string;
+    resume?: string;
     youtube?: string;
     email?: string;
   };
@@ -128,6 +128,9 @@ export const AUTHOR: Author = {
   social: {
     github: "https://github.com/shubh152205/",
     email: "ask.shubham.dev@gmail.com",
+    linkedin: "https://www.linkedin.com/in/shubhamsharma0522/",
+    resume: "https://drive.google.com/file/d/1P1Tv3wyAeWJBcNVhBjdKc6XmkBmIxAre/view?usp=sharing",
+    youtube: "https://www.youtube.com/@ask-shubh",
   },
 };
 

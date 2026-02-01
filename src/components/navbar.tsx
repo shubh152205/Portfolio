@@ -14,7 +14,7 @@ import {
   HomeIcon,
   LinkedinIcon,
   MailIcon,
-  TwitterIcon,
+  FileText as ResumeIcon,
   YoutubeIcon,
 } from "lucide-react";
 import Link from "next/link";
@@ -56,9 +56,9 @@ export default async function Navbar() {
         <Separator orientation="vertical" className="h-full" />
         {[
           {
-            name: "Twitter",
-            icon: TwitterIcon,
-            url: author?.social?.twitter || "#",
+            name: "Resume",
+            icon: ResumeIcon,
+            url: author?.social?.resume || "#",
           },
           {
             name: "GitHub",
