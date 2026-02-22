@@ -138,7 +138,7 @@ export const AUTHOR: Author = {
     github: "https://github.com/shubh152205/",
     email: "ask.shubham.dev@gmail.com",
     linkedin: "https://www.linkedin.com/in/shubhamsharma0522/",
-    resume: "https://drive.google.com/file/d/1P1Tv3wyAeWJBcNVhBjdKc6XmkBmIxAre/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1BImgcUxBE9SlsdHgVAnCWay4Os2LATWd/view?usp=sharing",
     youtube: "https://www.youtube.com/@ask-shubh",
   },
 };
