@@ -79,7 +79,7 @@ export const AUTHOR: Author = {
   initials: "SS",
   avatar: {
     asset: {
-      url: "/portfolio/images/avatar.jpg",
+      url: "https://raw.githubusercontent.com/shubh152205/Portfolio/main/public/images/avatar.jpg",
     },
   },
   description: [
@@ -88,7 +88,7 @@ export const AUTHOR: Author = {
       children: [
         {
           _type: "span",
-          text: "Software Developer",
+          text: "Software Engineer | Mobile & Backend Developer",
         },
       ],
     },
@@ -99,31 +99,40 @@ export const AUTHOR: Author = {
       children: [
         {
           _type: "span",
-          text: "Results-driven software engineer focused on mobile app development and user interface design. Known for effective problem-solving and collaborative code reviews, enhancing application quality and efficiency.",
+          text: "Results-driven software engineer specialising in mobile app development, systems programming, and backend engineering. Experienced in building security-focused tools, multi-threaded C++ engines, and cross-platform Flutter apps. Passionate about clean architecture, real-world problem solving, and continuous learning.",
         },
       ],
     },
   ],
-  location: "India",
-  // All skills from portfolio-8: Frontend (5) + Backend (3) + Tools (4) = 12 skills
+  location: "Greater Noida, India",
   skills: [
-    "Mobile app development",
-    "Programming",
-    "Data structures and algorithms",
-    "User interface design",
-    "Code debugging",
-    "C/C++",
+    // Languages
     "Python",
-    "HTML",
-    "CSS",
-    "Research and analysis",
-    "Software design",
-    "React",
-    "JavaScript",
-    "Node.js",
-    "VS Code",
-    "Photoshop",
+    "Java",
+    "Dart",
+    "C/C++",
+    "SQL",
+    "HTML/CSS",
+    // Frameworks & Libraries
+    "Flutter",
+    "Spring Boot",
+    "React.js",
+    "Pandas",
+    "NumPy",
+    // Developer Tools
     "Git",
+    "GitHub",
+    "VS Code",
+    "Android Studio",
+    "Postman",
+    "Kafka",
+    "Azure Console",
+    // Concepts
+    "Data Structures & Algorithms",
+    "Mobile Security",
+    "REST APIs",
+    "OOP",
+    "UI/UX Design",
   ],
   social: {
     github: "https://github.com/shubh152205/",
@@ -134,24 +143,21 @@ export const AUTHOR: Author = {
   },
 };
 
-/*export const WORK_EXPERIENCE: WorkExperience[] = [
+export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     _id: "work-1",
-    company: "Student",
-    title: "Android Developer",
+    company: "Self-Employed / YouTube",
+    title: "Freelance Content & UI Designer",
     location: "Remote",
-    startDate: "2024",
-    endDate: "2025",
+    startDate: "Jan 2023",
+    endDate: "Present",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: `• Developed user-friendly interfaces for mobile applications. \n
-                   • Participated in code reviews to maintain quality standards. \n
-                   • Assisted in debugging code to identify and fix errors in applications. \n
-                   • Researched new technologies to enhance understanding of software engineering trends.`,
+            text: `• Designed visual concepts and UI elements for diverse digital platforms, applying design-thinking principles.\n• Streamlined video production workflows with custom motion graphics and audio enhancements.`,
           },
         ],
       },
@@ -159,159 +165,175 @@ export const AUTHOR: Author = {
   },
   {
     _id: "work-2",
-    company: "College Mini Project",
-    title: "Flutter Developer",
+    company: "JPMorgan Chase & Co. (Forage)",
+    title: "Software Engineering Job Simulation",
     location: "Remote",
-    startDate: "2025",
-    endDate: "2025",
+    startDate: "Feb 2026",
+    endDate: "Feb 2026",
+    url: "https://www.theforage.com/",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: `• Developed user interfaces using Flutter for mobile applications. \n
-                   • Conducted code reviews to ensure best practices and maintain code quality. \n
-                   • Troubleshot and debugged application issues to improve user experience.`,
+            text: `• Completed a backend engineering simulation using Java and Spring Boot, developing REST APIs for financial data requests.\n• Implemented Kafka for real-time data processing and integrated an H2 Database for transaction recording.`,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    _id: "work-3",
+    company: "Mastercard (Forage)",
+    title: "Cybersecurity Job Simulation",
+    location: "Remote",
+    startDate: "Feb 2026",
+    endDate: "Feb 2026",
+    url: "https://www.theforage.com/",
+    description: [
+      {
+        _type: "block",
+        children: [
+          {
+            _type: "span",
+            text: `• Designed a phishing simulation and analyzed click-rate metrics to identify vulnerabilities and strengthen defense strategies.`,
           },
         ],
       },
     ],
   },
 ];
-*/
+
 export const EDUCATION: Education[] = [
-  // Add your education details here if needed
+  {
+    _id: "edu-1",
+    school: "Greater Noida Institute of Technology",
+    degree: "Bachelor of Technology in Computer Science Engineering",
+    startDate: "2024",
+    endDate: "2028",
+    url: "https://www.gniotgroup.edu.in/",
+  },
 ];
 
-// Only 4 projects with images from portfolio-8
+// Projects
 export const PROJECTS: Project[] = [
   {
     _id: "project-1",
-    title: "Analysis and Identification of Malicious Mobile Application",
+    title: "Pocket Analyzer — Deep Packet Inspection Engine",
+    startDate: "Feb 2026",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "This mini project focuses on the analysis and identification of malicious mobile applications using a Flutter-based approach. The system examines app behavior patterns, permissions, and activity indicators to help detect potential security threats in mobile applications. By combining a clean Flutter interface with logical analysis techniques, the project demonstrates how mobile security concepts can be applied in a practical, user-focused solution. It highlights an understanding of mobile app development, basic cybersecurity principles, and real-world problem solving.",
+            text: "Architected a highly concurrent Deep Packet Inspection (DPI) engine in C++ to parse raw PCAP network traffic and extract Server Name Indication (SNI) data from encrypted TLS handshakes. Engineered a multi-threaded processing pipeline utilising custom Load Balancers, Fast Paths, and thread-safe queues to efficiently scale packet inspection across multiple CPU cores. Implemented stateful flow tracking and a custom rules-based filtering system capable of detecting and dropping specific connections based on IP, domain, and application signatures.",
           },
         ],
       },
     ],
-    technologies: ["Flutter", "Docker", "Git", "GitHub", "VS Code", "Photoshop"],
+    technologies: ["C++", "Networking", "Multi-threading", "PCAP", "TLS/SNI"],
     image: {
       asset: {
-        url: "/portfolio/projects/project-1.webp",
+        url: "https://raw.githubusercontent.com/shubh152205/Portfolio/main/public/projects/project-1.webp",
+      },
+    },
+    links: [
+      {
+        title: "Source Code",
+        url: "https://github.com/shubh152205/Pocket_Analyzer",
+        type: "code",
+      },
+    ],
+  },
+  {
+    _id: "project-2",
+    title: "Malicious App Analyzer",
+    startDate: "Jan 2025",
+    description: [
+      {
+        _type: "block",
+        children: [
+          {
+            _type: "span",
+            text: "Developed a cross-platform mobile security tool in Flutter to identify and analyze potentially harmful Android applications. Engineered a scanning engine that detects sensitive permissions and suspicious behaviour patterns to generate detailed security reports.",
+          },
+        ],
+      },
+    ],
+    technologies: ["Flutter", "Dart", "Mobile Security", "Git", "GitHub"],
+    image: {
+      asset: {
+        url: "https://raw.githubusercontent.com/shubh152205/Portfolio/main/public/projects/project-2.webp",
       },
     },
     links: [
       {
         title: "Source Code",
         url: "https://github.com/shubh152205/FreeMalwareDetection",
-        type: "Dart",
-      },
-    ],
-  },
-  {
-    _id: "project-2",
-    title: "Youtube link to PDF converter",
-    description: [
-      {
-        _type: "block",
-        children: [
-          {
-            _type: "span",
-            text: "This project converts YouTube video links into clean, well-formatted PDF documents using Python and HTML. It extracts key video data such as title, description, and subtitles when available, then structures the content with HTML for readability before generating the final PDF. The tool focuses on simplicity, accuracy, and user experience, making it useful for offline study, documentation, and content archiving.",
-          },
-        ],
-      },
-    ],
-    technologies: ["Python", "HTML", "Git", "GitHub", "VS Code", "Photoshop"],
-    image: {
-      asset: {
-        url: "/portfolio/projects/project-2.webp",
-      },
-    },
-    links: [
-      {
-        title: "Source Code",
-        url: "#",
         type: "code",
-      },
-      {
-        title: "Live Demo",
-        url: "#",
-        type: "demo",
       },
     ],
   },
   {
     _id: "project-3",
-    title: "Blockchain Voting System",
+    title: "Secure Notes — Local Encryption App",
+    startDate: "Oct 2024",
+    endDate: "Dec 2024",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "A secure, transparent, and decentralized voting platform built on Ethereum. Features smart contract-based voting, anonymous ballots, real-time result tracking, and immutable audit trails. Ensures election integrity through cryptographic verification.",
+            text: "Architected an offline-first, privacy-focused note-taking application ensuring complete data sovereignty. Implemented advanced local encryption and biometric authentication to secure data directly on device storage.",
           },
         ],
       },
     ],
-    technologies: ["Solidity", "Web3.js", "React", "Ethereum", "IPFS", "MetaMask"],
+    technologies: ["Flutter", "Dart", "Cryptography", "Biometrics", "Hive"],
     image: {
       asset: {
-        url: "/portfolio/projects/project-3.webp",
+        url: "https://raw.githubusercontent.com/shubh152205/Portfolio/main/public/projects/project-3.webp",
       },
     },
     links: [
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/shubh152205/Secure_Notes",
         type: "code",
-      },
-      {
-        title: "Live Demo",
-        url: "#",
-        type: "demo",
       },
     ],
   },
   {
     _id: "project-4",
-    title: "Cloud Infrastructure Dashboard",
+    title: "YouTube to PDF Converter",
+    startDate: "Aug 2024",
+    endDate: "Sep 2024",
     description: [
       {
         _type: "block",
         children: [
           {
             _type: "span",
-            text: "A comprehensive cloud management platform for monitoring, managing, and optimizing multi-cloud infrastructure. Features real-time metrics, cost analysis, automated scaling, and security compliance monitoring across AWS, Azure, and GCP.",
+            text: "Built a utility tool that automates the conversion of educational video content into readable PDF documents. Utilised Python for backend processing to accurately extract frames and subtitles for structured study material. Integrated Java and HTML to format the final document output for improved readability.",
           },
         ],
       },
     ],
-    technologies: ["Go", "Kubernetes", "Grafana", "Prometheus", "Terraform", "React"],
+    technologies: ["Python", "Java", "HTML", "Git", "GitHub"],
     image: {
       asset: {
-        url: "/portfolio/projects/project-4.webp",
+        url: "https://raw.githubusercontent.com/shubh152205/Portfolio/main/public/projects/project-4.webp",
       },
     },
     links: [
       {
         title: "Source Code",
-        url: "#",
+        url: "https://github.com/shubh152205/Youtube_To_PDF",
         type: "code",
-      },
-      {
-        title: "Live Demo",
-        url: "#",
-        type: "demo",
       },
     ],
   },
 ];
-
