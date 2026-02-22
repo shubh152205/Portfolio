@@ -79,7 +79,7 @@ export const AUTHOR: Author = {
   initials: "SS",
   avatar: {
     asset: {
-      url: "https://cdn.dribbble.com/userupload/5464833/file/original-7c3852b08e60261f29f0fc3a3776da6f.jpg",
+      url: "/portfolio/images/avatar.jpg",
     },
   },
   description: [
@@ -134,7 +134,7 @@ export const AUTHOR: Author = {
   },
 };
 
-export const WORK_EXPERIENCE: WorkExperience[] = [
+/*export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     _id: "work-1",
     company: "Student",
@@ -179,7 +179,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     ],
   },
 ];
-
+*/
 export const EDUCATION: Education[] = [
   // Add your education details here if needed
 ];
